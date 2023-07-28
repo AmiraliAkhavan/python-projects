@@ -34,7 +34,7 @@ print("-"*80)
 #2
 print( person2 == person3)
 person2 = person3
-print( person2 == person3)
+print( person2 is person3)
 
 print("-"*80)
 
@@ -60,6 +60,6 @@ print(person1)
 print("-"*80)
 
 #5
-
+print("Enter the inputs :")
 person5 = {"name":(input("name:")),"family":input("family:"),"age":int(input("age:")),"number":int(input("number:")),"reshte":(input("reshte:"))}
 print("person5:",person5)
